@@ -1,0 +1,3 @@
+/Users/Adrian/Desktop/lazcorn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Adrian/Desktop/lazcorn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Adrian/Desktop/lazcorn/cmake-build-debug/CMakeFiles/lazcorn.dir

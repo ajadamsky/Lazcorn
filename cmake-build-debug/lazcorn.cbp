@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lazcorn"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Adrian/Desktop/lazcorn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Adrian/Desktop/lazcorn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Adrian/Desktop/lazcorn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lazcorn">
+				<Option output="/Users/Adrian/Desktop/lazcorn/cmake-build-debug/lazcorn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Adrian/Desktop/lazcorn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 lazcorn"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lazcorn/fast">
+				<Option output="/Users/Adrian/Desktop/lazcorn/cmake-build-debug/lazcorn" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Adrian/Desktop/lazcorn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 lazcorn/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Adrian/Desktop/lazcorn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/BossClass.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/BossClass.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/GameInterface.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/GameInterface.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/MessageBox.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/MessageBox.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/Object.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/Object.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/asteroid.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/asteroid.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/enemyShips.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/enemyShips.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/equipment.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/equipment.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/game.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/game.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/gameConfig.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/gameConfig.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/gameMenu.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/gameMenu.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/machine.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/machine.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/main.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/pathPoints.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/pathPoints.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/pauseMenu.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/pauseMenu.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/player.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/player.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/state.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/level_1.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/level_1.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/level_base.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/level_base.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/menu.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/menu.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/shop.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/shop.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/stateExit.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/stateExit.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/stateInit.cpp">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/states/stateInit.h">
+			<Option target="lazcorn"/>
+		</Unit>
+		<Unit filename="/Users/Adrian/Desktop/lazcorn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
